@@ -1,0 +1,11 @@
+Day 20
+
+Deploy Kubernetes cluster - Status: Complete
+
+Step to execute this tutorial:
+
+1- Created EKS master node & worker nodes
+2- Created 2 AWS IAM service roles
+3- create a kubeconfig
+4- install/configure AWS CLI & Kubectl
+5- Launch a simple application
