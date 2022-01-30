@@ -5,3 +5,11 @@ My first lab post certification will be deploying a Kubernetes application.
 I chose this hands-on tutorial/lab because I am extremely interested in containerization, Kubernetes & Openshift. 
 
 I plan to be KCNA OR CKA certified by the end of June 06/2022.
+
+Step to execute this tutorial:
+
+1- Setup Amazon EKS cluster Master Node
+2- Install/Configure AWS CLI and  kubectl
+3- Configure the EKS cluster with kubectl
+4- Create EKS worker nodes
+5-
