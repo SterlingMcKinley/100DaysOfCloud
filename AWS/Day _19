@@ -8,8 +8,9 @@ I plan to be KCNA OR CKA certified by the end of June 06/2022.
 
 Step to execute this tutorial:
 
-1- Setup Amazon EKS cluster Master Node
-2- Install/Configure AWS CLI and  kubectl
-3- Configure the EKS cluster with kubectl
-4- Create EKS worker nodes
-5-
+1- Create an AWS IAM service role and a VPC
+2- Setup Amazon EKS cluster Master Node
+3- Install/Configure AWS CLI and  kubectl
+4- Configure the EKS cluster with kubectl
+5- Create EKS worker nodes
+6- Launch a simple nginx application
