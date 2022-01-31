@@ -2,10 +2,16 @@ Lab: Deploy A Kubernetes Application
 
 Tools used: Kubectl, Amazon EKS & Elastic Load Balancing
 
-
+Creating AWS IAM roles
 ![1_Roles](https://user-images.githubusercontent.com/91057035/151870785-cb4530e9-f829-4831-8994-63326dadaed2.jpg)
+
+Created EKS cluster & master node
 ![2_EKS_Clusters](https://user-images.githubusercontent.com/91057035/151870846-0fe03ed0-41fe-4808-a56a-1ce21dad1b60.jpg)
+
+Create a Node Group
 ![3_Nodes_Group](https://user-images.githubusercontent.com/91057035/151870848-5bffbc65-bee8-4c30-8aef-ffff8b54cd78.jpg)
+
+
 ![4_KubeConfig](https://user-images.githubusercontent.com/91057035/151870849-7adfddf8-3d1f-4644-89bb-7347ad5605df.jpg)
 ![5_Kubectl1](https://user-images.githubusercontent.com/91057035/151870850-929b9d3c-24be-4acc-bf55-e8a29ceb9f27.jpg)
 ![6_AWS_CLI](https://user-images.githubusercontent.com/91057035/151870851-31eea5e5-e886-4079-9ee5-caf5a0b6999e.jpg)
