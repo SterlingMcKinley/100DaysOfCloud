@@ -28,21 +28,12 @@ Created & configured Kubeconfig to establish communication between local laptop 
 
 Test Configuration
 
-![7_Kubectl1](https://user-images.githubusercontent.com/91057035/151896595-3e40d2c4-f32c-40ac-9cc5-37867662285e.jpg)
+![7_Kubectl2](https://user-images.githubusercontent.com/91057035/151897168-1fc7e617-67b0-4a8a-9b40-4bf0b2cdf672.jpg)
 
 
-![5_KubeConfig](https://user-images.githubusercontent.com/91057035/151894170-d9a6b1fc-f9ee-4e4b-8881-03152995b0fc.jpg)
-
-Test my configuration
-![5_Kubectl1](https://user-images.githubusercontent.com/91057035/151893780-48aa64bb-bd88-4e3d-bca5-1a0bfedb698e.jpg)
+![8_KubeConfig](https://user-images.githubusercontent.com/91057035/151896998-86078754-2725-41cf-86bf-2a1eb4173fe5.jpg)
 
 
-
-
-![6_AWS_CLI](https://user-images.githubusercontent.com/91057035/151870851-31eea5e5-e886-4079-9ee5-caf5a0b6999e.jpg)
-
-![7_AWS_CLI2](https://user-images.githubusercontent.com/91057035/151870854-ec8493aa-8cde-4091-b8b5-6985df66ce6a.jpg)
-![8_Kubectl2](https://user-images.githubusercontent.com/91057035/151870858-6a90f4b1-aba6-416e-a8a8-6cd12f6771eb.jpg)
 ![9_Kubectl3](https://user-images.githubusercontent.com/91057035/151870860-75c9c6c1-2371-4a78-9c58-158a548e6170.jpg)
 ![10_Kubectl4](https://user-images.githubusercontent.com/91057035/151870861-fc074764-74c4-4037-9d6f-ce01f7b5a760.jpg)
 
