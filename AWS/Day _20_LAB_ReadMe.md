@@ -31,20 +31,17 @@ Test Configuration
 ![7_Kubectl2](https://user-images.githubusercontent.com/91057035/151897168-1fc7e617-67b0-4a8a-9b40-4bf0b2cdf672.jpg)
 
 
-![8_KubeConfig](https://user-images.githubusercontent.com/91057035/151896998-86078754-2725-41cf-86bf-2a1eb4173fe5.jpg)
-
-
-![9_Kubectl3](https://user-images.githubusercontent.com/91057035/151870860-75c9c6c1-2371-4a78-9c58-158a548e6170.jpg)
-![10_Kubectl4](https://user-images.githubusercontent.com/91057035/151870861-fc074764-74c4-4037-9d6f-ce01f7b5a760.jpg)
+![8_Kubectl3](https://user-images.githubusercontent.com/91057035/151897694-520e602c-b5b0-4c4c-beae-61a90eedd2c9.jpg)
+![9_Kubectl4](https://user-images.githubusercontent.com/91057035/151897747-17936e5e-f423-46fa-8899-69b24ac29d36.jpg)
 
 
 Deployed a sample Kuberbetes application onto cluster
-![11_K8_app_deployment](https://user-images.githubusercontent.com/91057035/151870863-ac7a0a06-2730-4081-a727-f641e0425852.jpg)
+![10_K8_app_deployment](https://user-images.githubusercontent.com/91057035/151897798-8497c067-5d72-4ef9-9552-b7c9457b6849.jpg)
 
 
 Application & Pod status verification
-![12_App_Pod_details](https://user-images.githubusercontent.com/91057035/151870864-302b7d2e-e4e3-4137-aa32-37d23c5175f9.jpg)
+![11_App_Pod_details](https://user-images.githubusercontent.com/91057035/151897837-62bce240-d782-4c95-ad23-7a2e0f412ab2.jpg)
 
 
 Deleting resources 
-![13_EKS_ClustersDelete](https://user-images.githubusercontent.com/91057035/151880921-44a003a8-2622-420c-91bd-1c2bc5bfd93f.jpg)
+![12_EKS_ClustersDelete](https://user-images.githubusercontent.com/91057035/151897856-943d664b-c5da-449c-ac9b-0976eb6ca0b1.jpg)
