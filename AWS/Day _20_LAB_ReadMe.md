@@ -23,8 +23,12 @@ Created & configured Kubeconfig to establish communication between local laptop 
 ![5_AWS_CLI1](https://user-images.githubusercontent.com/91057035/151896231-adc3226a-600a-4888-a5d7-14ec6261a954.jpg)
 
 
+![6_KubeConfig](https://user-images.githubusercontent.com/91057035/151896565-1c1a873b-9156-4a47-bf92-afc28f612b40.jpg)
+
+
 Test Configuration
-![6_Kubectl1](https://user-images.githubusercontent.com/91057035/151896293-84ea910e-a877-4b73-8153-8fad93c41515.jpg)
+
+![7_Kubectl1](https://user-images.githubusercontent.com/91057035/151896595-3e40d2c4-f32c-40ac-9cc5-37867662285e.jpg)
 
 
 ![5_KubeConfig](https://user-images.githubusercontent.com/91057035/151894170-d9a6b1fc-f9ee-4e4b-8881-03152995b0fc.jpg)
