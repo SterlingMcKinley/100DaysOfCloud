@@ -31,20 +31,16 @@ Created & configured Kubeconfig to establish communication between local laptop 
 
 Test Configuration
 
-![7_Kubectl2](https://user-images.githubusercontent.com/91057035/151897168-1fc7e617-67b0-4a8a-9b40-4bf0b2cdf672.jpg)
-
-
-![8_Kubectl2](https://user-images.githubusercontent.com/91057035/151898677-863d5962-f1a4-4853-be5d-5c322680d61b.jpg)
-![9_Kubectl3](https://user-images.githubusercontent.com/91057035/151898664-0ef14a48-9f0d-446e-80bb-916df3d9e47c.jpg)
-![10_Kubectl4](https://user-images.githubusercontent.com/91057035/151898639-174d6f8c-510a-40f8-ac00-b824d3435d11.jpg)
+![8_Kubectl2](https://user-images.githubusercontent.com/91057035/151899083-1efa0772-9267-4c7c-a49c-9769d4ff74ab.jpg)
 
 
 Deployed a sample Kuberbetes application onto cluster
-![11_K8_app_deployment](https://user-images.githubusercontent.com/91057035/151898622-90edbd0d-8fbe-494d-bde2-7b691d980ada.jpg)
+![9_K8_app_deployment](https://user-images.githubusercontent.com/91057035/151899181-c2d03cdc-f436-48e1-84b2-a746d1d46973.jpg)
 
 
 Application & Pod status verification
-![12_App_Pod_details](https://user-images.githubusercontent.com/91057035/151898594-9bee1eae-1939-4ebf-887a-9dca4472ec79.jpg)
+![10_App_Pod_details](https://user-images.githubusercontent.com/91057035/151899211-464571a8-3fb7-4339-86c1-9c423d60e103.jpg)
+
 
 Deleting resources 
 ![13_EKS_ClustersDelete](https://user-images.githubusercontent.com/91057035/151898572-49592bf9-e63d-4965-bae6-6912aa52b350.jpg)
