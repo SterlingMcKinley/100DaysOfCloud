@@ -15,6 +15,7 @@ Created a Node Group with AmazonEKSworkerNodePolicy, AmazonEKS_CNI_Policy & Amaz
 
 
 Installed Kubectl
+
 ![4_Kubectl1](https://user-images.githubusercontent.com/91057035/151894142-da733aa7-9b5f-4227-86d3-73c2c2631c75.jpg)
 
 
