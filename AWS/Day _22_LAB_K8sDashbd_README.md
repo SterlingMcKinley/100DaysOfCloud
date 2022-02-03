@@ -31,9 +31,12 @@ Created a yaml file ( eks-admin-service-account.yaml) This file defines a servic
 
 
 Retrieve authentication token for the eks-admin service account. The authentication will grant access to the dashboard.
+
 Commands:
+
 -kubectl get secrets
--kubectl describe secret <token-name>
+
+-kubectl describe secret {token-name}
   
 ![get_auth_token](https://user-images.githubusercontent.com/91057035/152417367-b9795a80-1787-4f28-8bd2-465ac2805fad.png)
   
