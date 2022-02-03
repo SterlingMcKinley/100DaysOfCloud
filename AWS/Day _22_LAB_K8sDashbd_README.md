@@ -49,13 +49,16 @@ Start kubectl proxy
   
 Kubernetes Dashboard
 •	Go to a browser and enter the link below:
+
   
 http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/#!/login
+  
   
 •	With the “Token” option selected, copy the authentication token from the command-line and pasted it onto the “Enter Token*”  (Token will be encrypted)
   
   ![K8_dashboard_UI](https://user-images.githubusercontent.com/91057035/152417969-dd30d322-e439-4817-bdb7-ddc97fc07d61.png)
 
+  
   
 Kuberbetes Dashboard UI
   
