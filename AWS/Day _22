@@ -1,0 +1,9 @@
+Day 22
+
+Lab: Deployed a Kubernetes Dashboard (web UI) via EKS & KMS
+
+Attempted to exexute this this lab yesterday but ran into an issue. 
+
+While troubleshooting that issue, I mistakenly deleted a VPC which added to the overall issue.
+
+This morning I started over with fresh eyes, fixed the VPC and the issue that prevent deploying the Kubernetes Dashboard.
