@@ -1,0 +1,18 @@
+Day 23 #100daysofcloud 
+
+Hands-On Lab: Dependency Monitoring (Complete)
+
+This lab coincides with the Operational Excellence Pillar. 
+
+Creating alarms, alerting resources/stakeholders of outcomes that are at-risk & automating the process are practices of opertional excellence.
+
+
+EC2
+CloudWatch
+CloudFormation
+S3
+SNS
+VPC
+Subnets
+Internet Gateway
+Route tables
