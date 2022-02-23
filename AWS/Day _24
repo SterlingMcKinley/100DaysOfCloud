@@ -1,0 +1,7 @@
+Day 24 #100DaysofCloud
+
+Hands-On Lab: CLOUDFRONT WITH S3 BUCKET ORIGIN
+
+In this lab, I hosted static web content in an Amazon S3 bucket, protected  and accelerated by Amazon CloudFront.
+
+I chose this lab to examplify the Well-Archtected Security Pillar which applies best practices as well as meet business and regulatory requirements.
