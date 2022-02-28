@@ -27,7 +27,7 @@ Adding the Kubernetes Dashboard manifest to the cluster (eks-cluster)
 
 Created a yaml file ( eks-admin-service-account.yaml) This file defines a service account and cluster role binding called “eks-admin”
 
-![k8_dashboard_config](https://user-images.githubusercontent.com/91057035/152417194-ceaeb46d-4144-4bc6-8753-8044b42aab5e.png)
+![created_yaml_file](https://user-images.githubusercontent.com/91057035/156022037-8e9f49c5-ad7e-4818-91ad-06816166e882.png)
 
 
 Retrieve authentication token for the eks-admin service account. The authentication will grant access to the dashboard.
