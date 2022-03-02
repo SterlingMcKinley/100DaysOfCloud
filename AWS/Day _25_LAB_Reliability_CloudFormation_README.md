@@ -55,7 +55,7 @@ Review, check the checkbox for the acknowledge and Click “Create stack”
 
 
 
-Creating the VPC stack will take few minutes.
+Creating the VPC stack will take a few minutes.
 
 The WebApp1-VPC status will change from CREATE_IN_PROGRESS to CREATE_COMPLETE. 
 
@@ -91,7 +91,7 @@ Now its time to deploy a sample application
 
 Key: Owner
 
-Value: <personal email address>
+Value: personal email address
 
 ![CloudFormation4](https://user-images.githubusercontent.com/91057035/156449313-c432055f-d63d-446f-beff-419d4dd1d9a0.png)
 
