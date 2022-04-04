@@ -1,4 +1,8 @@
-In this lab I have deployed two CloudFormation templates. The first CloudFormation deployment, created an Amazon Virtual Private Cloud (VPC). The second CloudFormation template deployed an application into my VPC. To ensure reliability, one EC2 instance was deployed in my availbility zones, Elastic Load Balancing utilized to distribute it among te available EC2 instances across AZs. Lastly, the EC2 instances reside in an EC2 Auto Scaling Group, which detects the health of an instance. If any instance becomes unhealthy, it will be replaced.
+This lab continues my dedicated effort to obtain a better understanding of the AWS Well-Architected Framework 6 Pillars.
+
+Today, I will focus on RELIABILITY .
+
+I have deployed two CloudFormation templates. The first CloudFormation deployment, created an Amazon Virtual Private Cloud (VPC). The second CloudFormation template deployed an application into my VPC. To ensure reliability, one EC2 instance was deployed in my availbility zones, Elastic Load Balancing utilized to distribute it among te available EC2 instances across AZs. Lastly, the EC2 instances reside in an EC2 Auto Scaling Group, which detects the health of an instance. If any instance becomes unhealthy, it will be replaced.
 
 
 Log in to AWS Console, I chose us-east-2 (Ohio) region.
