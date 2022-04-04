@@ -1,3 +1,8 @@
+This lab continues my dedicated effort to obtain a better understanding of the AWS Well-Architected Framework 6 Pillars.
+
+Today, I will focus on OPERATIONAL EXCELLENCE .
+
+
 Deploying infrastructure using AWS CloudFormation
 
 ![cloudformation_deploy](https://user-images.githubusercontent.com/91057035/152604078-cb2171c4-7571-41d2-83d2-5133a9463e05.png)
