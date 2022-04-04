@@ -1,4 +1,9 @@
-In this lab, I will create an Amazon EC2 instance running Amazon Linux. Then configure an Amazon CloudWatch Dashboard to gather views of the health and performance information for that instance.
+This lab continues my dedicated effort to obtain a better understanding of the AWS Well-Architected Framework 6 Pillars.
+
+Today, I will focus on PERFORMANCE EFFICIENCY.
+
+
+I will create an Amazon EC2 instance running Amazon Linux. Then configure an Amazon CloudWatch Dashboard to gather views of the health and performance information for that instance.
 
 -Log into AWS console (using new/updated loadout)
 -First, deploy a VPC via a CloudFormation template
