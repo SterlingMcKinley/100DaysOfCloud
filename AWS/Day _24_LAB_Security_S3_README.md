@@ -1,3 +1,7 @@
+This lab continues my dedicated effort to obtain a better understanding of the AWS Well-Architected Framework 6 Pillars.
+
+I will focus on SECURITY.
+
 In today's lab/project I will be demonstrating how to leverage Amazon AWS S3 & AWS Cloudfront to host a static webpage.
 
 ![lab_image](https://user-images.githubusercontent.com/91057035/155307248-0697f365-441f-4ae1-b707-827d1d6f731e.png)
