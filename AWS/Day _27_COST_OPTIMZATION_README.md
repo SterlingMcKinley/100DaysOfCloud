@@ -47,16 +47,18 @@ Below ONLY monthly EC2 Instance(s) and Other costs are displayed.
 
 ![report1](https://user-images.githubusercontent.com/91057035/162064474-71330d39-cc80-4f04-8a9c-01aa61d901d1.png)
 
+![report2](https://user-images.githubusercontent.com/91057035/162064667-9dab01fa-f4c5-47df-93fe-03364e170020.png)
 
 Now change the “Group by:” to “Usage Type” to display monthly EC2 Instance(s) and Other costs by usage type.
 
+![report3](https://user-images.githubusercontent.com/91057035/162067704-3172f663-ddab-42b4-8ab3-20e75fe72608.png)
 
 
 Let's change the bar graph to a line graph and display ONLY On-Demand costs for monthly EC2 Instance(s) and Other costs. 
 
 Click on Purchase Option, select On Demand and click Apply filters, which will ensure we are only looking at On-Demand costs:
 
-![report2](https://user-images.githubusercontent.com/91057035/162064667-9dab01fa-f4c5-47df-93fe-03364e170020.png)
+
 
 ![report4](https://user-images.githubusercontent.com/91057035/162065203-94bf9c21-3bf3-43ca-a0f4-4ec230f1353e.png)
 
