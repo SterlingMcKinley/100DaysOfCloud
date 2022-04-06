@@ -33,8 +33,6 @@ Click on Monthly costs by service. Below is my monthly activity and costs by ser
 
 Reports can be filtered and customized in many different ways that apply to the service(s) being utilized.*
 
-![explorer6](https://user-images.githubusercontent.com/91057035/162064286-979526aa-f7d4-44a2-95b8-7934a21aac96.png)
-
 
 ![explorer7](https://user-images.githubusercontent.com/91057035/162064333-d299c8cb-c2cf-4aa9-a0ba-4a1026e67c94.png)
 ![explorer8](https://user-images.githubusercontent.com/91057035/162064334-6a8262c3-c8a1-4890-a27a-0b8226e3114e.png)
