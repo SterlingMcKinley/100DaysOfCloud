@@ -144,11 +144,24 @@ On the left panel, select Database and you will see the S3 bucket name
 ![glue12](https://user-images.githubusercontent.com/91057035/162283454-1a0b1976-78a3-45f2-b85d-8cc8d3426e5e.png)
 
 
-Click the S3 bucket name > Tables in mckinley-proxy-metrics-lab
+Click the S3 bucket name > Tables in mckinley-proxy-metrics-lab > mckinley-proxy-metrics-lab
 
 
 ![glue13](https://user-images.githubusercontent.com/91057035/162283667-172d967b-9ce6-405b-876e-c037edd0ed69.png)
 
+![glue14](https://user-images.githubusercontent.com/91057035/162284248-743cf091-2d72-4b59-8219-d6aca7026bd7.png)
+
+![glue15](https://user-images.githubusercontent.com/91057035/162284502-029a8c25-1055-4fc2-987c-467b9cdb6d32.png)
+
+![glue16](https://user-images.githubusercontent.com/91057035/162284630-bb30fe8d-062f-4703-96e0-d9f406a402f6.png)
+
+
+Now I will create a glue job that will produce a parquet output file that will integrate with Athena.
+
+Navigate to AWS Glue > Jobs > Create
+
+
+![job1](https://user-images.githubusercontent.com/91057035/162285605-2c339dcb-dfd8-4aaf-9767-af25f33187b8.png)
 
 
 
