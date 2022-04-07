@@ -42,13 +42,12 @@ Update the bucketname and the region, leaving the rest of the paramter with the 
  
  
  -Since its my first time using Amazon Athena, I must set up a query result location in Amazon S3.
+ 
   -select Settings tab on the navigation bar.
   
   -Choose Manage
   
-  -In the Location of query result box, enter the path to the bucket that created in Amazon S3 for query results. Prefix the path with s3://.
-  
-      -To ensure best practices for security, Under Encrypt query results, check both checkboxes
+  -In the Location of query result box, enter the path to the bucket that created in Amazon S3 for query results. Prefix the path with s3://. 
       
   -Save
 
@@ -59,6 +58,12 @@ Update the bucketname and the region, leaving the rest of the paramter with the 
 
 
 
+In the previous steps, I have provided AWS Cost & Usage Report data in an Amazon S3 bucket. Now I must make usage data available in the AWS Glue data catalog for Amazon Athena. In order to do this, Amazon Athena allows SQL (Structured Query Language) queries to be executed on the data without loading it into a database. 
+
+In an effort to expand my AWS knowledge and use new services, I chose to utilize AWS Glue to create the connection to S3 bucket,  use AWS Glue Crawler to locate the S3 database and pull data into AWS Glue data catalog for Amazon Athena. Once the database was located, I created tables via a DDL (Data Definition Language) SQL statement in Amazon Athena.
+
+Here is the process I used:
+
 -Create a new AWS Glue database via the Amazon Athena’s query editor. Amazon Athena can connect to your data stored in Amazon S3 using the AWS Glue Data Catalog to store metadata such as table and column names. After the connection is made, your databases, tables, and views appear in Athena's query editor
 
 First I must create an AWS Glue Crawler. In the query editor, next to Tables and views, choose Create, and then choose AWS Glue crawler.
@@ -68,7 +73,7 @@ First I must create an AWS Glue Crawler. In the query editor, next to Tables and
 
 
 
-Update the Crawler name: mckinley-proxy-metrics-crawler then click Next
+-Update the Crawler name: mckinley-proxy-metrics-crawler then click Next
 
 ![glue1](https://user-images.githubusercontent.com/91057035/162276901-2c057f84-eaf1-45cc-af87-b9b16af4f31b.png)
 
@@ -137,6 +142,7 @@ Now click "Run it now?" in the banner.
 
 ![glue11](https://user-images.githubusercontent.com/91057035/162282110-7ee65487-7586-41d6-90e0-03035b0b62ca.png)
 
+
 To confirm that the crawler parsed and ingested the data, we must verify.
 
 On the left panel, select Database and you will see the S3 bucket name
@@ -156,6 +162,13 @@ Click the S3 bucket name > Tables in mckinley-proxy-metrics-lab > mckinley-proxy
 ![glue16](https://user-images.githubusercontent.com/91057035/162284630-bb30fe8d-062f-4703-96e0-d9f406a402f6.png)
 
 
+I have refreshed the AwsDataCatalog and mckinley-proxy-metrics-lab database populated. Utilizing Amazon Athena's query editor, I created tables via a DDL (Data Definition Language) SQL statement. Please note that I provided the location of the S3 bucket in the SQL statement.
+
+
+![job1](https://user-images.githubusercontent.com/91057035/162329128-08b3e542-feba-42ac-9002-186864f8c36f.png)
+
+
+Using the same database and table, I will aggregate the usage data by type and AWS account. I will be able calculate proxy metrics for Key Performance Indicators (KPI) of application teams. 
 
 
 
