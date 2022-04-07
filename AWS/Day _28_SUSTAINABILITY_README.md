@@ -6,7 +6,7 @@ Today, I will focus on SUSTAINABILITY
 
 AWS is responsible for sustainability OF the cloud. Customers are responsible for sustainability IN the cloud.
 
-In this lab I will draw proxy metrics from AWS Cost & Usage Report (sample data) and prepare the data ready for dashboarding with Amazon QuickSight. Then I will add data and combine it with the AWS Cost & Usage Reports. 
+In this lab I will draw proxy metrics from AWS Cost & Usage Report (sample data) using Amazon Athena to prepare the data for analysis.
 
 
 
