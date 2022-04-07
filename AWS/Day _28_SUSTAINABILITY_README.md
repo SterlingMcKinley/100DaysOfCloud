@@ -56,6 +56,23 @@ Update the bucketname and the region, leaving the rest of the paramter with the 
 
 First I must create an AWS Glue Crawler. In the query editor, next to Tables and views, choose Create, and then choose AWS Glue crawler.
     
+![athena5](https://user-images.githubusercontent.com/91057035/162276181-2a979258-cfee-4bb8-b951-133c8170bd4a.png)
+
+
+
+
+Update the Crawler name: mckinley-proxy-metrics-crawler then click Next
+
+![glue1](https://user-images.githubusercontent.com/91057035/162276901-2c057f84-eaf1-45cc-af87-b9b16af4f31b.png)
+
+
+Leave all defaults. Next
+
+Crawler source type: Data
+Repeat crawls of S3 data stores: Crawl all folders
+
+![glue2](https://user-images.githubusercontent.com/91057035/162278021-720f2add-1d42-4835-82d3-563799b3ec2f.png)
+
 
 
 
