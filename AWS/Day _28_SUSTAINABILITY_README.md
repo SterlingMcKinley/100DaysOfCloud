@@ -39,7 +39,23 @@ Update the bucketname and the region, leaving the rest of the paramter with the 
  
  
  -Since its my first time using Amazon Athena, I must set up a query result location in Amazon S3.
+  -select Settings tab on the navigation bar.
+  -Choose Manage
+  -In the Location of query result box, enter the path to the bucket that created in Amazon S3 for query results. Prefix the path with s3://.
+      -To ensure best practices for security, Under Encrypt query results, check both checkboxes,
+  -Save
 
- 
+
+![athena3](https://user-images.githubusercontent.com/91057035/162262877-e406b1df-2b7a-40fb-94a2-6828268ee10f.png)
+
+![athena4](https://user-images.githubusercontent.com/91057035/162265128-6ac2a848-a30e-4961-81f3-3e9a4e6b3797.png)
+
+
+
+-Create a new AWS Glue database via the Amazon Athena’s query editor. Amazon Athena can connect to your data stored in Amazon S3 using the AWS Glue Data Catalog to store metadata such as table and column names. After the connection is made, your databases, tables, and views appear in Athena's query editor
+
+First I must create an AWS Glue Crawler. In the query editor, next to Tables and views, choose Create, and then choose AWS Glue crawler.
+    
+
 
 
