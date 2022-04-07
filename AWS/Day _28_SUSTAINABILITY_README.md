@@ -156,12 +156,6 @@ Click the S3 bucket name > Tables in mckinley-proxy-metrics-lab > mckinley-proxy
 ![glue16](https://user-images.githubusercontent.com/91057035/162284630-bb30fe8d-062f-4703-96e0-d9f406a402f6.png)
 
 
-Now I will create a glue job that will produce a parquet output file that will integrate with Athena.
-
-Navigate to AWS Glue > Jobs > Create
-
-
-![job1](https://user-images.githubusercontent.com/91057035/162285605-2c339dcb-dfd8-4aaf-9767-af25f33187b8.png)
 
 
 
