@@ -109,3 +109,46 @@ Select Frequency: On Demand then click Next
 ![glue6](https://user-images.githubusercontent.com/91057035/162280181-0aa0e95c-b86c-4639-9f2a-7c94392de19a.png)
 
 
+Configure the crawler's output
+
+Click Add database
+
+Database name: mckinley-proxy-metrics-lab
+
+*I name the database after the S3 bucket to keep consistently. This will help me to correlate activity/tasks.
+
+
+Click Next
+
+![glue7](https://user-images.githubusercontent.com/91057035/162281507-e59c11b0-02f2-43df-b936-b7b24855619a.png)
+
+
+Review details and click Finish
+
+![glue8](https://user-images.githubusercontent.com/91057035/162281631-b2583a0d-a8e2-4eff-a98d-56b1eb856320.png)
+
+![glue9](https://user-images.githubusercontent.com/91057035/162281747-1a93f6c9-220e-4cb2-9939-8dd280874f96.png)
+
+
+Now click "Run it now?" in the banner.
+  -Status will update to "Start" then "Ready"
+
+![glue 10](https://user-images.githubusercontent.com/91057035/162282020-6dd4917f-686d-4ab6-b97b-ec488f43ae56.png)
+
+![glue11](https://user-images.githubusercontent.com/91057035/162282110-7ee65487-7586-41d6-90e0-03035b0b62ca.png)
+
+To confirm that the crawler parsed and ingested the data, we must verify.
+
+On the left panel, select Database and you will see the S3 bucket name
+
+![glue12](https://user-images.githubusercontent.com/91057035/162283454-1a0b1976-78a3-45f2-b85d-8cc8d3426e5e.png)
+
+
+Click the S3 bucket name > Tables in mckinley-proxy-metrics-lab
+
+
+![glue13](https://user-images.githubusercontent.com/91057035/162283667-172d967b-9ce6-405b-876e-c037edd0ed69.png)
+
+
+
+
