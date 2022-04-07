@@ -15,7 +15,9 @@ In this lab I will draw proxy metrics from AWS Cost & Usage Report (sample data)
 Update the bucketname and the region, leaving the rest of the paramter with the default settings. 
 
   - BucketName: mckinley-proxy-metrics-lab
+  
   - Choose a region in which you will also run the Amazon Athena queries (later): US-East (Ohio) us-east-2
+  
   - Press "Create"
  
 ![bucket1](https://user-images.githubusercontent.com/91057035/162256574-271c1c9b-ec5f-4f72-8d04-0f3a7155a834.png)
@@ -30,6 +32,7 @@ Update the bucketname and the region, leaving the rest of the paramter with the 
 
 
 -Navigate to Amazon Athena console ( ensure the previously utilized region is set to the same region my S3 bucket resides.)
+
   -choose Explore the query editor, then choose set up a query result location in Amazon S3 and follow the steps from the Amazon Athena docs to specify a query result location.
   
  
@@ -40,9 +43,13 @@ Update the bucketname and the region, leaving the rest of the paramter with the 
  
  -Since its my first time using Amazon Athena, I must set up a query result location in Amazon S3.
   -select Settings tab on the navigation bar.
+  
   -Choose Manage
+  
   -In the Location of query result box, enter the path to the bucket that created in Amazon S3 for query results. Prefix the path with s3://.
-      -To ensure best practices for security, Under Encrypt query results, check both checkboxes,
+  
+      -To ensure best practices for security, Under Encrypt query results, check both checkboxes
+      
   -Save
 
 
@@ -69,10 +76,36 @@ Update the Crawler name: mckinley-proxy-metrics-crawler then click Next
 Leave all defaults. Next
 
 Crawler source type: Data
+
 Repeat crawls of S3 data stores: Crawl all folders
 
 ![glue2](https://user-images.githubusercontent.com/91057035/162278021-720f2add-1d42-4835-82d3-563799b3ec2f.png)
 
 
+
+Add a data store by updating the Include path to location the S3 bucket
+
+Click Next
+
+![glue3](https://user-images.githubusercontent.com/91057035/162279182-e18aaed1-34a5-4a08-8429-75480dc4653c.png)
+
+
+
+Click Next; -Answer: No Only adding one datastore at this time
+
+![glue4](https://user-images.githubusercontent.com/91057035/162279458-1744b90d-3b22-41d5-9ed9-5ecabc8dbc9b.png)
+
+
+
+Create an IAM role. There are 3 different options, however creating an IAM role will provide me all permissions neccesary. The role id must be UNIQUE
+
+Click Next
+![glue5](https://user-images.githubusercontent.com/91057035/162279981-50de1d12-f9f5-4358-8db2-769fe8a83bf8.png)
+
+
+
+Select Frequency: On Demand then click Next
+
+![glue6](https://user-images.githubusercontent.com/91057035/162280181-0aa0e95c-b86c-4639-9f2a-7c94392de19a.png)
 
 
