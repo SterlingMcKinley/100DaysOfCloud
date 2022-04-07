@@ -171,4 +171,5 @@ I have refreshed the AwsDataCatalog and mckinley-proxy-metrics-lab database popu
 Using the same database and table, I will aggregate the usage data by type and AWS account. I will be able calculate proxy metrics for Key Performance Indicators (KPI) of application teams. 
 
 
+![job2](https://user-images.githubusercontent.com/91057035/162332980-bb5220d5-d842-44ac-8811-1af87fae0a1e.png)
 
