@@ -52,7 +52,7 @@ Save Changes
 
 STEP 2: Scroll down to Bucket policy section, click edit Bucket Policy
 
-~Erase the current policy. Enter the following:
+~Erase the current policy. Enter the following JSON policy:
 
 {
     "Version": "2012-10-17",
@@ -70,5 +70,31 @@ STEP 2: Scroll down to Bucket policy section, click edit Bucket Policy
 
 ~ Click Save Changes
 
+![json](https://user-images.githubusercontent.com/91057035/162511109-b900f627-5f6a-4a1d-aff3-1a429ed047ef.png)
+
+
 **There is an option to use the Policy Generator to configure the policy, however an issue many surface. After running into that issue, I had to research a solution and found a work-around in which I provided above.**
+
+
+
+Step3: Create the pipeline 
+
+~Navigate to AWS CodePipeline and click Create Pipeline
+
+Create a name the Pipeline and click Next
+
+
+![pipeline1](https://user-images.githubusercontent.com/91057035/162514386-b0222670-3bb6-4748-a8e3-ec188c2d80b0.png)
+
+
+A source provider must be chosen while creating the pipeline, I will choose GitHub (Version 2).
+
+~Connect to our GitHub.
+
+~Choose the repository name.
+
+~Branch name for this project should be master
+
+
+
 
