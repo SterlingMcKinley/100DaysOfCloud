@@ -132,5 +132,21 @@ Click Next
 ![build1](https://user-images.githubusercontent.com/91057035/162521949-c626fc97-2cba-4737-8db1-ba19138156ea.png)
 
 
+The final step in step 3, Deploy stage.
+
+~Configure the following:
+
+   -Deploy provider- Amazon S3
+   
+   -Region- US East (Ohio)
+   
+   -Bucket- mckinley1 (my bucket name)
+  
+   -Click Next
+   
+![deploy_stage](https://user-images.githubusercontent.com/91057035/162525259-1ac33959-af11-478f-944a-f4766788dd75.png)
+
+
+Review all details & click Create pipeline
 
 
