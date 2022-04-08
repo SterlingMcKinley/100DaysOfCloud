@@ -58,7 +58,7 @@ Update the bucketname and the region, leaving the rest of the paramter with the 
 
 
 
-In the previous steps, I have provided AWS Cost & Usage Report data in an Amazon S3 bucket. Now I must make usage data available in the AWS Glue data catalog for Amazon Athena. In order to do this, Amazon Athena allows SQL (Structured Query Language) queries to be executed on the data without loading it into a database. 
+In the previous steps, I have provided AWS Cost & Usage Report data in an Amazon S3 bucket. Now I must make usage data available in the AWS data catalog for Amazon Athena. In order to do this, Amazon Athena allows SQL (Structured Query Language) queries to be executed on the data without loading it into a database. 
 
 In an effort to expand my AWS knowledge and use new services, I chose to utilize AWS Glue to create the connection to S3 bucket,  use AWS Glue Crawler to locate the S3 database and pull data into AWS Glue data catalog for Amazon Athena. Once the database was located, I created tables via a DDL (Data Definition Language) SQL statement in Amazon Athena.
 
