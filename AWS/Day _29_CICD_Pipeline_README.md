@@ -42,5 +42,33 @@ Hosting type- Host a static website
 
 Index document (this must be a .html document)
 
+Save Changes
+
 
 ![bucket4](https://user-images.githubusercontent.com/91057035/162502056-a058ddd6-3fe1-4cd1-adfd-0a82f3e38128.png)
+
+****Remain in the S3 bucket and select the PERMISSIONS tab*
+
+
+STEP 2: Scroll down to Bucket policy section, click edit Bucket Policy
+
+~Erase the current policy. Enter the following:
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "PublicReadGetObject",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::BUCKET-NAME/*"
+        }
+    ]
+}
+
+
+~ Click Save Changes
+
+**There is an option to use the Policy Generator to configure the policy, however an issue many surface. After running into that issue, I had to research a solution and found a work-around in which I provided above.**
+
