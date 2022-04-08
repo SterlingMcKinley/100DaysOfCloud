@@ -52,9 +52,9 @@ Save Changes
 
 STEP 2: Scroll down to Bucket policy section, click edit Bucket Policy
 
-~Erase the current policy. Enter the following JSON policy:
+~Erase the current policy. Copy & paste the following JSON policy:
 
-{
+    {
     "Version": "2012-10-17",
     "Statement": [
         {
@@ -89,11 +89,47 @@ Create a name the Pipeline and click Next
 
 A source provider must be chosen while creating the pipeline, I will choose GitHub (Version 2).
 
-~Connect to our GitHub.
+Connect to my GitHub account.
 
-~Choose the repository name.
+Choose the repository name.
 
-~Branch name for this project should be master
+Branch name for this project will be main.
+
+Click Next
+
+
+![pipeline2](https://user-images.githubusercontent.com/91057035/162517674-91fb32b9-0f75-4ab7-bd34-833c8a2ec224.png)
+
+
+~Now Building is the next step in this process, Navigate to AWS CodeBuild and configure the following:
+
+Build provider: AWS Codebuild
+
+Region: US East (Ohio) *MY REGION*
+
+Project name: I created a project. My project name is CICD Pipeline *another window will pop-up to create a new project*
+
+        -Scroll down to Environment.
+        
+        -Select Managed Image.
+        
+        -Select your operating system preference. I have selected Amazon Linux for this tutorial.
+        
+        -Select the Runtime. Standard is the only option available currently.
+        
+        -Select the latest Image version.
+        
+        -Select Linux as the Environment type.
+        
+        -Click New service role, to allow AWS to create the role.
+        
+        -Click Continue to CodePipeline
+
+Build type: single build
+
+Click Next
+
+![build1](https://user-images.githubusercontent.com/91057035/162521949-c626fc97-2cba-4737-8db1-ba19138156ea.png)
 
 
 
