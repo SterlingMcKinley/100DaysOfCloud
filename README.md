@@ -1,6 +1,6 @@
 This Repository is a roadmap of my journey participating in the #100DaysOfCloud challenge.
 
-This challenge will provide the hands-on experience I need while I enter the "World of Cloud".
+This challenge will provide the hands-on experience needed to enter the "World of Cloud".
 
 Achievements:
 
