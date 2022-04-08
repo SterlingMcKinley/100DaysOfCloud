@@ -1,13 +1,10 @@
 This Repository is a roadmap of my journey participating in the #100DaysOfCloud challenge.
 
-This challenge will track my progress as I enter into the "World of Cloud".
+This challenge will provide the hands-on experience I need while I enter the "World of Cloud".
 
 Achievements:
 
 - AWS Certified Cloud Pracitioner
-
-
-
 
 
 
