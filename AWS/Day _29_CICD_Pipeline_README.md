@@ -55,14 +55,18 @@ STEP 2: Click the Permissions tab for your S3 bucket. Scroll down to Bucket poli
 
 
     {
-     "Version": "2012-10-17",
-      "Statement": [
-    {
-        "Sid": "PublicReadGetObject",
-        "Effect": "Allow",
-        "Principal": "*",
-        "Action": "s3:GetObject",
-        "Resource": "arn:aws:s3:::BUCKET-NAME/*"
-          }
-        ]
-    }
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "PublicReadGetObject",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": [
+                "s3:GetObject"
+            ],
+            "Resource": [
+                "arn:aws:s3:::Bucket-Name/*"
+            ]
+        }
+    ]
+    }   
