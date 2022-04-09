@@ -24,19 +24,45 @@ Please be sure to un-check "Block all public access and check I acknowledge"
 
 Then Click Create
 
+
 ![bucket2](https://user-images.githubusercontent.com/91057035/162591034-6b5b3655-47b0-4274-8d5c-8f4ff2b0d399.png)
 
-![bucket3](https://user-images.githubusercontent.com/91057035/162591123-9c5db5a4-eced-427e-a26d-45b84aacddb3.png)
+![bucket3](https://user-images.githubusercontent.com/91057035/162591817-aabc3664-7a3f-4a3a-ad19-57ac855d957a.png)
+
 
 
 Navigate to S3 bucket, Amazon S3 > Buckets > mckinley1
 
 Click on the properties tab, Scroll down to configure the following:
 
-Static Website Hosting- Enable
+Static Website Hosting: Enable
 
-Hosting type- Host a static website
+Hosting type: Host a static website
 
-Index document (this must be a .html document)
+Index document: (this must be a .html document)
+
+![bucket4](https://user-images.githubusercontent.com/91057035/162592054-1bd84cda-acd8-4c10-9a5d-c37674c2b1ed.png)
+
 
 Save Changes
+
+
+***Remain in the S3 bucket
+
+STEP 2: Click the Permissions tab for your S3 bucket. Scroll down to Bucket policy section, click edit Bucket Policy
+
+~Erase the current policy. Copy & paste the following JSON policy:
+
+
+    {
+     "Version": "2012-10-17",
+      "Statement": [
+    {
+        "Sid": "PublicReadGetObject",
+        "Effect": "Allow",
+        "Principal": "*",
+        "Action": "s3:GetObject",
+        "Resource": "arn:aws:s3:::BUCKET-NAME/*"
+          }
+        ]
+    }
