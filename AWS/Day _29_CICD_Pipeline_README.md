@@ -87,7 +87,8 @@ Step3: Create the pipeline
 Create a name the Pipeline and click Next
 
 
-![pipeline1](https://user-images.githubusercontent.com/91057035/162592860-e4bfd53c-bbdb-4d68-a36c-9740fe5dd6a2.png)
+![pipeline1](https://user-images.githubusercontent.com/91057035/162592899-86eb9bdd-1a5c-4712-9390-63a3ed262f5a.png)
+
 
 
 A source provider must be chosen while creating the pipeline, I will choose GitHub (Version 2).
@@ -101,3 +102,4 @@ Branch name for this project will be master.
 Click Next
 
 
+![pipeline2](https://user-images.githubusercontent.com/91057035/162592904-811ab5f5-74a7-4a51-bf69-f3173419264c.png)
