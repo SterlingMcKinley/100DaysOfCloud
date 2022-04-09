@@ -170,7 +170,8 @@ My site is up and running....
 ![app1](https://user-images.githubusercontent.com/91057035/162594304-0144608f-9924-4843-947f-be01c3ac83e1.png)
 
 
-Now I will edit the site...
+Now I will edit the site...When an update is made to the code in a GitHub repository, the update will automatically be detected and your project will be updated.
+
 ***I must admit this project was FUN!***
 
 ![app2](https://user-images.githubusercontent.com/91057035/162594592-061219ea-769c-4c6f-8ace-8fc1502cafbe.png)
