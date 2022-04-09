@@ -29,7 +29,8 @@ Then Click Create
 ![bucket2](https://user-images.githubusercontent.com/91057035/162500314-9228c28b-116d-4196-b8b9-62add032a291.png)
 
 
-![bucket3](https://user-images.githubusercontent.com/91057035/162501483-f94a4d38-8058-48ed-9c82-d15e5336a272.png)
+![bucket3](https://user-images.githubusercontent.com/91057035/162590705-ca40f325-f270-46b7-b0bc-be523c34fa69.png)
+
 
 
 Navigate to yout S3 bucket, Amazon S3 > Buckets > mckinley1
