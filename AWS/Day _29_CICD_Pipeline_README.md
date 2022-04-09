@@ -78,6 +78,8 @@ After running into that issue, I had to research a solution and found a work-aro
 
 
 
+
+
 Step3: Create the pipeline
 
 ~Navigate to AWS CodePipeline and click Create Pipeline
@@ -85,7 +87,7 @@ Step3: Create the pipeline
 Create a name the Pipeline and click Next
 
 
-![pipeline1](https://user-images.githubusercontent.com/91057035/162592446-48d660b2-4abc-4d66-87dc-62267dbfc4bc.png)
+![pipeline1](https://user-images.githubusercontent.com/91057035/162592860-e4bfd53c-bbdb-4d68-a36c-9740fe5dd6a2.png)
 
 
 A source provider must be chosen while creating the pipeline, I will choose GitHub (Version 2).
