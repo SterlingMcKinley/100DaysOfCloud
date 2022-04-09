@@ -76,8 +76,6 @@ There is an option to use the Policy Generator to configure the policy, however 
 After running into that issue, I had to research a solution and found a work-around which I provided above.
 
 
-![bucket5](https://user-images.githubusercontent.com/91057035/162592376-e30ee965-4853-477a-9721-cebe554ab802.png)
-
 
 
 Step3: Create the pipeline
