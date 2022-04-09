@@ -103,3 +103,41 @@ Click Next
 
 
 ![pipeline2](https://user-images.githubusercontent.com/91057035/162592904-811ab5f5-74a7-4a51-bf69-f3173419264c.png)
+
+
+
+~Now Building is the next step in this process, Navigate to AWS CodeBuild and configure the following:
+
+   -Build provider: AWS Codebuild
+   
+   -Region: US East (Ohio) MY REGION
+   
+   -Project name: I created a project. My project name is CICD Pipeline another window will pop-up to create a new project
+   
+   
+![build1](https://user-images.githubusercontent.com/91057035/162593114-344bf876-4840-4309-b440-c6ea2e1efad4.png)
+
+
+
+![build2](https://user-images.githubusercontent.com/91057035/162593132-b650a400-f1e5-43a3-bdaf-ac7b090c37b5.png)
+
+~Scroll down to Environment:
+
+   -Select Managed Image.
+  
+   -Select your operating system preference. Ubuntu
+  
+   -Select the Runtime. Standard is the only option available currently.
+  
+   -Select the latest Image version.
+  
+   -Select Linux as the Environment type.
+  
+   -Click New service role, to allow AWS to create the role.
+   
+   -Click Continue to Pipeline
+  
+![build3](https://user-images.githubusercontent.com/91057035/162593246-9fa32eb3-867a-45e6-9cce-e45fd3fac111.png)
+
+
+
