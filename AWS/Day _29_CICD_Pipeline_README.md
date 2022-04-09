@@ -112,7 +112,9 @@ Click Next
    
    -Region: US East (Ohio) MY REGION
    
-   -Project name: I created a project. My project name is CICD Pipeline another window will pop-up to create a new project
+   -Project name: I created a project. My project name is CICD Pipeline 
+   
+   **another window will pop-up to create a new project**
    
    
 ![build1](https://user-images.githubusercontent.com/91057035/162593114-344bf876-4840-4309-b440-c6ea2e1efad4.png)
@@ -140,4 +142,35 @@ Click Next
 ![build3](https://user-images.githubusercontent.com/91057035/162593246-9fa32eb3-867a-45e6-9cce-e45fd3fac111.png)
 
 
+Final step in step 3 -  Deploy stage
 
+Deploy provider: Amazon S3
+
+Region: US East (Ohio)
+
+Bucket: mckinley1 (my bucket name)
+
+Click Next
+
+
+![build4](https://user-images.githubusercontent.com/91057035/162594005-14f1aff8-857c-48f6-8358-2c0142eec74b.png)
+
+
+Review all details & click Create pipeline
+
+
+![build5](https://user-images.githubusercontent.com/91057035/162594201-50de7f7e-f3cc-4316-8dcc-f65ef6a06473.png)
+
+
+![build6](https://user-images.githubusercontent.com/91057035/162594202-a548e8af-fe31-43e1-98a6-8430e9dce573.png)
+
+
+My site is up and running....
+
+![app1](https://user-images.githubusercontent.com/91057035/162594304-0144608f-9924-4843-947f-be01c3ac83e1.png)
+
+
+Now I will edit the site...
+***I must admit this project was FUN!***
+
+![app2](https://user-images.githubusercontent.com/91057035/162594592-061219ea-769c-4c6f-8ace-8fc1502cafbe.png)
