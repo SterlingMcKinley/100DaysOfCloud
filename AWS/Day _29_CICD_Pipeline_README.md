@@ -65,8 +65,27 @@ STEP 2: Click the Permissions tab for your S3 bucket. Scroll down to Bucket poli
                 "s3:GetObject"
             ],
             "Resource": [
-                "arn:aws:s3:::Bucket-Name/*"
+                "arn:aws:s3:::mckinley1/*"
             ]
         }
     ]
     }   
+
+There is an option to use the Policy Generator to configure the policy, however an issue may surface. 
+
+After running into that issue, I had to research a solution and found a work-around which I provided above.
+
+
+![bucket5](https://user-images.githubusercontent.com/91057035/162592376-e30ee965-4853-477a-9721-cebe554ab802.png)
+
+
+
+Step3: Create the pipeline
+
+~Navigate to AWS CodePipeline and click Create Pipeline
+
+Create a name the Pipeline and click Next
+
+
+
+
