@@ -53,6 +53,8 @@ STEP 2: Click the Permissions tab for your S3 bucket. Scroll down to Bucket poli
 
 ~Erase the current policy. Copy & paste the following JSON policy:
 
+** Update the BUCKET_NAME with the correct bucket name.**
+
 
     {
     "Version": "2012-10-17",
@@ -65,7 +67,7 @@ STEP 2: Click the Permissions tab for your S3 bucket. Scroll down to Bucket poli
                 "s3:GetObject"
             ],
             "Resource": [
-                "arn:aws:s3:::mckinley1/*"
+                "arn:aws:s3:::BUCKET_NAME/*"
             ]
         }
     ]
