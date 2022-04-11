@@ -1,0 +1,8 @@
+#100DaysofCloud Day 30
+
+In today's lab I will be creating EC2 instance via AWS CLI.
+
+EC2 is one of the most significant services provided by AWS. EC2 can be provisioned and/or managed by via GUI or CLI. 
+CLI can be more efficient and faster if multiple EC2 instances are being launched at a time. AWS CLI is one method in managing everything about an instance using the command-line interface of AWS. 
+
+In an effort to get more hands-on experience with AWS, I will be using AWS CLI to create/launch an EC2 instance.
