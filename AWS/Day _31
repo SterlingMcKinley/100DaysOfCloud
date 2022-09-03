@@ -1,0 +1,10 @@
+#100DaysOfCloud Day 30
+
+In todays's lab, I will be creating CI/CD pipeline. 
+
+This CI/CD pipeline will be created using:
+•	Git
+•	GitHub
+•	Jenkins
+•	AWS EC2
+•	AWS Elastic Beanstalk
